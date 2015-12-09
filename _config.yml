@@ -1,0 +1,30 @@
+# Site settings
+title: "Carlos Henrique Baia"
+email: carloshenriquebaia@gmail.com
+description: "A dark blog theme for Jekyll."
+baseurl: ""
+url: "http://carlosbaia.com/"
+title_description: "A dark blog theme for Jekyll focusing on a clear reading experience. Large text and a narrow body makes carte noire a gorgeous read. With excellent code snippet support and integrated tools such as AddThis and Disqus giving your Jekyll blog all the functionality your users expect."
+title_image: "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/000/201/38a/0894103.jpg"
+#google_analytics: ""
+#github_repository: ""
+addthis_id: ra-513c6fa83da6ec67
+post_limit: 5
+
+# Social usernames/URLs
+#twitter_username:
+github_username:  carlosbaia
+linkedin_link: https://br.linkedin.com/in/carloshenriquebaia
+google_plus_link: https://plus.google.com/+CarlosHenriqueBaia
+#stackoverflow_link: 
+
+# Footer
+#footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+#footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
+permalink: pretty
+exclude: [vendor]
