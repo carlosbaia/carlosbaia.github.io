@@ -8,11 +8,12 @@
 $twitter:        #6dabda;
 $linkedin:       #2b77b1;
 $google-plus:    #c95644;
-$github:         #f6c2a4;
+$github:         #622981;
 $stack-overflow: #c98b3b;
 $rss:            #eea33a;
 $facebook:       #48649f;
 $email:          #ca3b2b;
+$skype:          #00aae8;
 
 $darker:         #21211E;
 $dark:           #2D2D29;
@@ -208,6 +209,10 @@ ul {
 	
 	.fa-envelope-o:hover {
 		color: $email;
+	}
+	
+	.fa-skype:hover {
+		color: $skype;
 	}
 }
 

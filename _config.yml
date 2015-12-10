@@ -13,13 +13,14 @@ google_analytics: "UA-71213574-1"
 post_limit: 5
 
 # Social usernames/URLs
-#twitter_username:
-github_username: carlosbaia
-linkedin_link: https://br.linkedin.com/in/carloshenriquebaia
-facebook_link: https://www.facebook.com/carloshenriquebaia
 email_link: mailto:carloshenriquebaia@gmail
-#google_plus_link: https://plus.google.com/+CarlosHenriqueBaia
+skype_link: skype:carlos.henrique.baia
+linkedin_link: https://br.linkedin.com/in/carloshenriquebaia
+github_username: carlosbaia
 #stackoverflow_link: 
+#twitter_username:
+facebook_link: https://www.facebook.com/carloshenriquebaia
+#google_plus_link: https://plus.google.com/+CarlosHenriqueBaia
 
 # Footer
 #footer_left: "Made with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
