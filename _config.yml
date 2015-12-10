@@ -13,9 +13,11 @@ post_limit: 5
 
 # Social usernames/URLs
 #twitter_username:
-github_username:  carlosbaia
+github_username: carlosbaia
 linkedin_link: https://br.linkedin.com/in/carloshenriquebaia
-google_plus_link: https://plus.google.com/+CarlosHenriqueBaia
+facebook_link: https://www.facebook.com/carloshenriquebaia
+email_link: mailto:carloshenriquebaia@gmail
+#google_plus_link: https://plus.google.com/+CarlosHenriqueBaia
 #stackoverflow_link: 
 
 # Footer
