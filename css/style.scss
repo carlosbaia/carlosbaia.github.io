@@ -11,6 +11,8 @@ $google-plus:    #c95644;
 $github:         #f6c2a4;
 $stack-overflow: #c98b3b;
 $rss:            #eea33a;
+$facebook:       #48649f
+$email:          #ca3b2b
 
 $darker:         #21211E;
 $dark:           #2D2D29;
@@ -198,6 +200,14 @@ ul {
 
 	.fa-rss:hover {
 		color: $rss;
+	}
+	
+	.fa-facebook:hover {
+		color: $facebook;
+	}
+	
+	.fa-envelope-o:hover {
+		color: $email;
 	}
 }
 
