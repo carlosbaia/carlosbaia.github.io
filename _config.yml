@@ -6,7 +6,7 @@ baseurl: ""
 url: "http://carlosbaia.com/"
 title_description: "Engenheiro de Computação e Desenvolvedor de Software há mais de 10 anos, trabalho com segurança de informação e desenvolvo em C++ e Python em praticamente todo esse período. Tenho experiência com metodologias ágeis e MBA em Gerenciamento de Projetos pela FGV.<br><br>Trabalho na GAS Tecnologia e desenvolvo tecnologias antifraudes que rodam em mais de 50 milhões de computadores. Recentemente tenho trabalhado como cientista de dados e usado aprendizado de máquina no combate à fraude."
 
-title_image: "https://s.gravatar.com/avatar/a094eb0d6a2614158242087840f2a7d7?s=200"
+title_image: "https://s.gravatar.com/avatar/a094eb0d6a2614158242087840f2a7d7?s=150"
 google_analytics: "UA-71213574-1"
 disqus_account: carlosbaia
 #github_repository: ""
