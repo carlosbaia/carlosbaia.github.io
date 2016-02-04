@@ -10,3 +10,10 @@ tags:
 ---
 
 # Hello World!
+
+{% highlight cpp %}
+int main() {
+	print("Hello World!");
+	return 0;
+}
+{% endhighlight %}
