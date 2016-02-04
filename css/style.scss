@@ -14,6 +14,7 @@ $rss:            #eea33a;
 $facebook:       #48649f;
 $email:          #ca3b2b;
 $skype:          #00aded;
+$kaggle:         #20beff;
 
 $darker:         #21211E;
 $dark:           #2D2D29;
@@ -213,6 +214,10 @@ ul {
 	
 	.fa-skype:hover {
 		color: $skype;
+	}
+
+	.icon-kaggle:hover {
+		color: $kaggle;
 	}
 }
 
