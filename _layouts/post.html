@@ -27,6 +27,7 @@ layout: default
 
       <div class="author">
         <small><i>
+          <a href={{ site.url }}>{{ site.author }}</a><br>
           {% if page.author %}
           by
           <span itemprop="author">
@@ -41,14 +42,14 @@ layout: default
             {% endif %}
           </span>
           {% endif %}
-          on <span itemprop="datePublished" content="2014-08-28">{{ page.date | date: "%B %-d, %Y" }}</span>
-          {% if page.categories != empty %} under {% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
+          em <span itemprop="datePublished" content="">{{ page.date | date: "%-d/%m/%Y" }}</span>
+          {% if page.categories != empty %} sobre {% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
         </i></small>
       </div>
 
       <div class="read-time">
         <small>
-          {{ minutes }} minute read
+          {{ minutes }} minutos de leitura
         </small>
       </div>
 
@@ -74,8 +75,9 @@ layout: default
       </div>
 
       <div class="content-panel feedback">
-        I <i class="fa fa-heart"></i> feedback.<br />
-        Let me know what you think of this article, leave a comment below. <i class="fa fa-smile-o"></i>
+        Todo feedback é bem vindo. Deixe dicas, comentários e sugestões logo abaixo <i class="fa fa-smile-o"></i>
+        <br>
+        Volta para a página inicial: <a href={{ site.url }}>{{ site.author }}</a><br>
       </div>
 
       {% if site.disqus_account %}

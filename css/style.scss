@@ -13,7 +13,7 @@ $stack-overflow: #c98b3b;
 $rss:            #eea33a;
 $facebook:       #48649f;
 $email:          #ca3b2b;
-$skype:          #00aded;
+$skype:          #20c1ff;
 $kaggle:         #20beff;
 
 $darker:         #21211E;
@@ -65,7 +65,7 @@ a:hover {
 }
 
 ul {
-    list-style-type: none;
+	list-style-type: none;
 }
 
 .navbar, .nav {
@@ -105,7 +105,7 @@ ul {
 	width: 100%;
 
 	@media (min-width: $screen-sm-min) {
-		font-size: 62px;
+		font-size: 40px;
 		margin-left: -10%;
 		width: 120%;
 	}
@@ -288,7 +288,7 @@ ul {
 		text-align: center;
 		margin-top: 30px;
 
-		b {
+	b {
 			font-size: 32px;
 		}
 	}
@@ -302,7 +302,7 @@ ul {
 		font-size: 20px;
 
 		h2 {
-			margin-bottom: 30px;
+			margin-bottom: 20px;
 			color: $light-blue;
 			font-size: 26px;
 		}
@@ -459,7 +459,7 @@ ul {
 		margin-bottom: 10px;
 
 		@media (min-width: $screen-sm-min) {
-			margin-bottom: 40px;
+			margin-bottom: 20px;
 		}
 	}
 
@@ -564,7 +564,7 @@ ul {
 			padding-bottom: 10px;
 
 			@media (min-width: $screen-sm-min) {
-				font-size: 24px;
+				font-size: 15px;
 				padding-left: 30px;
 				padding-right: 30px;
 				padding-top: 40px;
@@ -574,9 +574,9 @@ ul {
 			img {
 				max-width: 100%;
 				padding: 10px;
-    		display: block;
-    		margin-left: auto;
-    		margin-right: auto
+				display: block;
+				margin-left: auto;
+				margin-right: auto
 			}
 
 			li {
@@ -586,9 +586,9 @@ ul {
 			blockquote {
 				position: relative;
 				width: 100%;
-		    margin-left: -15px;
-				padding-right: 45px;
 				background-color: $darker;
+				margin-left: -15px;
+				padding-right: 45px;
 				color: white;
 				box-sizing: content-box;
 				border: none;
@@ -601,20 +601,20 @@ ul {
 				}
 
 				p {
-			    margin: 0;
-			    padding: 15px;
+					margin: 0;
+					padding: 15px;
 					z-index: 0;
 				}
 
 				:before {
-    			font-family: "Times New Roman";
+    				font-family: "Times New Roman";
 					color: $light-medium;
-			    content: "“";
-			    position: absolute;
-			    top: 15px;
-			    left: 15px;
-			    font-size: 65px;
-			    font-weight: bold;
+					content: "“";
+					position: absolute;
+					top: 15px;
+					left: 15px;
+					font-size: 65px;
+					font-weight: bold;
 				}
 
 			}
@@ -624,8 +624,8 @@ ul {
 			}
 
 			.aligncenter {
-			    display: block;
-			    margin: 5px auto 5px auto;
+				display: block;
+				margin: 5px auto 5px auto;
 			}
 
 			.highlight {
