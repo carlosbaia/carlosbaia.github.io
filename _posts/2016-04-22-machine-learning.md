@@ -10,7 +10,7 @@ tags:
  - Data Scientist
  - Artificial Intelligence
 ---
-Atualmente, vemos falamos muito de Big Data, Data Science, Inteligência Artificial e Machine Learning.
+Atualmente, vemos falar muito de Big Data, Data Science, Inteligência Artificial e Machine Learning.
 Esses assuntos tem aparecido cada vez mais em filmes, palestras e principalmente dentro de empresas de tecnologia.
 
 Mas afinal, o que são todas essas coisas? Para que servem?
