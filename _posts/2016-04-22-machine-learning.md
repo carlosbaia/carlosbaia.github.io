@@ -54,20 +54,19 @@ As aplicações são inúmeras e muitas dessas aplicações já estão presentes
 
 * Podemos analisar o padrão comportamental de um usuário de cartão de crédito, cruzar com dados de outros usuários e quando algo fugir do padrão pode se tomar precauções extras para prevenir uma fraude. Machine Learning já é usado por anos no **combate à fraude** e com um bom percentual de sucesso. [A Visa diz ter impedido bilhões de dólares em fraudes com o uso de Big Data](http://blogs.wsj.com/cio/2013/03/11/visa-says-big-data-identifies-billions-of-dollars-in-fraud/){:target="_blank"} e [o PayPal também diz ter reduzido bastante à fraude com Machine Learning](http://www.infoworld.com/article/2907877/machine-learning/how-paypal-reduces-fraud-with-machine-learning.html){:target="_blank"}. Mais recentemente, [pesquisadores do MIT criaram um sistema capaz de detectar ciberataques com 85% de precisão](http://olhardigital.uol.com.br/fique_seguro/noticia/inteligencia-artificial-ajuda-a-identificar-ciberataques/57348){:target="_blank"};
 
-
-* No mercado financeiro [mais de 50% das operações com ações já são feitas por robôs com uso de inteligência artificial](http://super.abril.com.br/tecnologia/os-robos-de-wall-street){:target="_blank"}, também já existem bancos que fazem todas as análises de credito do cliente e análise da confiabilidade de uma transação da mesma forma;
+* No mercado financeiro [mais de 50% das operações com ações já são feitas por robôs com uso de inteligência artificial](http://super.abril.com.br/tecnologia/os-robos-de-wall-street){:target="_blank"}. Utilizando da mesma técnica, bancos são capazes de fazer análise de credito de um cliente e análise da confiabilidade de uma transação de maneira muito mais eficiente;
 
 * Temos o que a IBM chama de computação cognitiva, em 2011 ela apresentou o supercomputador Watson, que se destacou ao vencer humanos em um programa de auditório, atualmente tem funcionado como assistente médico ao ajudar no combate ao câncer, além de ser capaz de analisar, entender e aprender com grandes conjuntos de dados de uma empresa e gerar informações úteis que podem levar a novos negócios. [Desde que foi lançado, Watson já levou à criação de 500 novos negócios e hoje é um dos focos principais da IBM](
 http://www.bitmag.com.br/2016/02/ibm-arranca-partnerworld-com-foco-na-nuvem-analitica-e-inteligencia-artificial/){:target="_blank"};
 
 * Temos também computadores invencíveis no Xadrez e até mesmo no [Go, um jogo chinês que especialistas duvidavam que uma máquina fosse capaz de dominar em um futuro próximo](http://veja.abril.com.br/noticia/vida-digital/computador-do-google-vence-sul-coreano-lenda-do-jogo-chines-go){:target="_blank"};
 
-* E veículos completamente autônomos como os desenvolvidos pelo Google, Tesla, Volkswagen, Mercedes-Benz e Nissan. Temos casos de veículos que dirigiram milhares de quilômetros por cidades populosas e estradas totalmente controlado por um software de inteligência artificial.
+* E veículos completamente autônomos como os desenvolvidos pelo Google, Apple, Tesla, Volkswagen, Mercedes-Benz e Nissan. [Temos casos de veículos que dirigiram milhares de quilômetros por cidades populosas e estradas totalmente controlado por um software de inteligência artificial](http://startse.infomoney.com.br/portal/2015/11/17/15096/o-carro-autnomo-do-google-est-pronto-mas/){:target="_blank"}.
 
 As aplicações são inúmeras para inteligência artificial, até mesmo em campanhas políticas e para [prever o resultado da votação de impeachment](https://www.gustavodemari.com.br/data-science-para-previsao-da-votacao-do-impeachment/){:target="_blank"} já foi usada e com uma taxa de acerto muito boa.
 
 [A consultoria Boston Consulting Group prevê que, em 2025, até um quarto dos empregos seja substituído por softwares ou robôs, enquanto que um estudo da Universidade de Oxford, no Reino Unido, aponta que 35% dos atuais empregos no país correm o risco de serem automatizados nas próximas duas décadas](http://www.bbc.com/portuguese/noticias/2015/09/150914_profissoes_robos_lgb){:target="_blank"}.
 
-É uma área e com um potencial enorme de crescimento e acredito que atualmente a empresa que não usa esse tipo de tecnologia já esta saindo atrás no mercado.
+É uma área com potencial enorme de crescimento e acredito que atualmente as empresas que não utilizam esse tipo de tecnologia já estão saindo atrás no mercado.
 
 O objetivo desse artigo foi introduzir os conceitos de Data Science e Machine Learning e o que somos capazes de fazer com essas tecnologias, nos próximos artigos irei mostrar como iniciar nessa área e até mesmo como participar de algumas competições.
