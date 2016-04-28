@@ -4,6 +4,7 @@ title:      Aprendizado de máquina
 date:       2016-04-22 15:15:00
 summary:    Fist article
 thumbnail:  gears
+fb_image:   http://cs-people.bu.edu/celiu/cs542/MachineLearning.jpg
 tags:
  - Machine Learning
  - Data Science
