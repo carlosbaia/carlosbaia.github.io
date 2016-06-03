@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Podcast - Data Science
-date:       2016-04-22 15:15:00
+date:       2016-06-03 14:00:00
 summary:    Podcast sobre Data Science
 thumbnail:  microphone
 fb_image:   https://i1.sndcdn.com/artworks-000165645277-x4ginr-t500x500.jpg
