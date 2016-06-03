@@ -88,7 +88,7 @@ layout: default
             </div>
           </div>
       {% else %}
-          <div class="fb-comments" data-href="http://carlosbaia.com/" data-numposts="5" colorscheme="dark"></div>
+          <div class="fb-comments" data-href={{ site.url }} data-numposts="5" colorscheme="dark"></div>
       {% endif %}
 
       {% if site.related_posts.length > 0 %}
@@ -156,5 +156,10 @@ layout: default
       js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
+
+    var url = document.URL
+    // No primeiro post esqueci de setar a url certa, entao para nao perder os cometarios, vou deixar com a padrao
+    if (url.indexOf('2016/04/22/machine-learning') == -1)
+      document.getElementsByClassName('fb-comments')[0].setAttribute("data-href", url);
     </script>
 {% endif %}
