@@ -120,7 +120,7 @@ Tomando como partida o exemplo anterior, podemos querer agrupar os dados em 3 gr
 **Exemplos:**
 
 - Para identificar clientes similares e com isso ser mais assertivo ao oferecer um novo produto;
-- Na área médica para agrupar pacientes como os mesmos sintomas;
+- Na área médica para agrupar pacientes com os mesmos sintomas;
 - Em marketing para segmentação de mercado;
 - Para classificação de documentos;
 - Para qualquer agrupamento de uma grande de quantidade de dados baseado em suas características.
