@@ -4,7 +4,7 @@ title:      Introdução ao Machine Learning
 date:       2016-07-17 16:40:00
 summary:    Introdução ao Machine Learning
 thumbnail:  book
-fb_image:   {{ site.baseurl }}/img/introducao-ao-machine-learning/cover.png
+fb_image:   http://carlosbaia.com/img/introducao-ao-machine-learning/cover.png
 tags:
  - Machine Learning
  - Feature
