@@ -4,7 +4,7 @@ title:      Introdução ao Machine Learning
 date:       2016-07-17 16:40:00
 summary:    Introdução ao Machine Learning
 thumbnail:  book
-fb_image:   https://www.adscience.nl/wp-content/uploads/2013/11/Machine_Learning.png
+fb_image:   {{ site.baseurl }}/img/introducao-ao-machine-learning/cover.png
 tags:
  - Machine Learning
  - Feature
@@ -73,7 +73,7 @@ Um novo dado poderia ser colocado ali conforme suas características e dependend
 **Exemplo:** Determinar o preço de uma casa.
 
 - Pegaríamos as características de várias casas (bolinhas azuis) e os seus preços (linha vermelha);
-- Treinaríamos um algoritmo capaz de criar uma relação entra as características da casa e o seu preço;
+- Treinaríamos um algoritmo capaz de criar uma relação entre as características da casa e o seu preço;
 - Teríamos um algoritmo capaz de determinar o preço de uma nova casa (bolinhas amarelas) baseado em suas características.
 
 <br>
