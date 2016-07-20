@@ -129,7 +129,7 @@ Tomando como partida o exemplo anterior, podemos querer agrupar os dados em 3 gr
 
 ### Aplicação
 Existem diversas formas de se aplicar Machine Learning hoje em dia, diferentes linguagens e bibliotecas.
-Iremos trabalhar com a linguagem Python e com biblioteca a [**SciKit Learn** ou **SkLearn**](http://scikit-learn.org){:target="_blank"}, que é uma poderosa biblioteca focada em Machine Learning para Python.
+Iremos trabalhar com a linguagem Python e com a biblioteca [**SciKit Learn** ou **SkLearn**](http://scikit-learn.org){:target="_blank"}, que é uma poderosa biblioteca focada em Machine Learning para Python.
 Atualmente o SkLearn já engloba todos esses grupos de algoritmos que citei.
 [![image](http://scikit-learn.org/stable/_static/ml_map.png)](http://scikit-learn.org/stable/tutorial/machine_learning_map/){:target="_blank"}
 Nos próximos artigos darei exemplos de aplicações práticas usando essa biblioteca.
