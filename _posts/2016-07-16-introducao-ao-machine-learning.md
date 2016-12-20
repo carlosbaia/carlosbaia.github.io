@@ -19,7 +19,7 @@ Nesse artigo iremos tratar alguns conceitos básicos dessa área a fim de prepar
 Um algoritmo de ML basicamente pega um conjunto de dados de entrada e baseado nos padrões encontrados gera as saídas.
 Cada entrada desse conjunto de dados possuem suas features, ter um conjunto delas é o ponto inicial para qualquer algoritmo de ML.
 
-### Feature
+### Feature  {#feature}
 Feature é uma característica que descreve um objeto.<br>
 Qualquer atributo de um objeto pode ser tratado como feature, seja um número, um texto, uma data, um booleano etc.<br><br>
 Como no objeto pessoa, vemos vários atributos que o descreve, esses atributos são suas features
@@ -42,7 +42,7 @@ Existem diversas técnicas para gerar features, seja através do conhecimento da
 Tendo nossas features em mãos podemos aplicar diversos algoritmos de aprendizado nelas.
 Existem dois grandes grupos de algoritmos em ML, os de aprendizagem supervisionada e os de aprendizagem não supervisionada.
 
-### Aprendizagem supervisionada
+### Aprendizagem supervisionada  {#supervised}
 Quando você tem um conjunto de entradas que possuem as saídas que deseja prever em outros dados.
 Com conhecimento das entradas e saídas de um número suficiente de dados, os algoritmos desse grupo podem achar os padrões que relacionam as entradas com as saídas.
 Dessa forma, se tivermos novos dados apenas com as entradas, podemos prever as saídas com base nesses padrões previamente encontrados.
@@ -83,7 +83,7 @@ No segundo exemplo tínhamos várias casas com seus preços que foram usadas nos
 
 <br>
 
-### Aprendizagem não supervisionada
+### Aprendizagem não supervisionada  {#unsupervised}
 
 Quando você tem um conjunto de entradas sem as saídas que você deseja.
 Com base nas características desses dados podemos gerar um agrupamento ou processá-los a fim de gerar novas formas de expressar essas características.
