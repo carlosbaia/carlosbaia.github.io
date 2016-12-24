@@ -23,11 +23,11 @@ Usaremos um algoritmo de [**classificação**]({{ site.baseurl }}/2016/07/17/int
 Antes de desenvolver nosso primeiro código, vamos configurar nosso ambiente de desenvolvimento.
 A linguagem de programação utilizada será o [**Python**](https://www.python.org/){:target="_blank"} e as principais bibliotecas utilizadas serão:
 
-- [**Numpy**](http://www.numpy.org/){:target="_blank"}: Biblioteca matemática muito poderosa, facilita muito o trabalho com arrays e tem diversas funções de álgebra, estática e computação científica no geral. 
+- [**Numpy**](http://www.numpy.org/){:target="_blank"}: Biblioteca matemática muito poderosa, facilita muito o trabalho com arrays e tem diversas funções de álgebra, estatística e computação científica no geral. 
 É implementada em C para garantir alto desempenho, o que é muito importante quando se trabalha com uma grande quantidade de dados.
 - [**Pandas**](http://pandas.pydata.org/){:target="_blank"}: Muito útil para estruturar os dados, ajuda muito na analise e na manipulação de grande quantidade de dados.
 Também é implementada em C para garantir alto desempenho.
-- [**Matplotlib**](http://matplotlib.org/){:target="_blank"}: Utilizada para plotar gráficos, o que uma ótima ferramenta na análise dos dados.
+- [**Matplotlib**](http://matplotlib.org/){:target="_blank"}: Utilizada para plotar gráficos, é uma ótima ferramenta na análise dos dados.
 - [**SciKit Learn** ou **SkLearn**](http://scikit-learn.org){:target="_blank"}: Possui diversos algoritmos de Machine Learning. Será a principal biblioteca que utilizaremos.
 
 Para desenvolver o código é possível usar sua IDE de preferência, caso não tenha uma, recomendo o uso do [**Jupyter**](http://jupyter.org/){:target="_blank"}
