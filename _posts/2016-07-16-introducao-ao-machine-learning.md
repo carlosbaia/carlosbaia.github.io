@@ -132,4 +132,4 @@ Existem diversas formas de se aplicar Machine Learning hoje em dia, diferentes l
 Iremos trabalhar com a linguagem Python e com a biblioteca [**SciKit Learn** ou **SkLearn**](http://scikit-learn.org){:target="_blank"}, que é uma poderosa biblioteca focada em Machine Learning para Python.
 Atualmente o SkLearn já engloba todos esses grupos de algoritmos que citei.
 [![image](http://scikit-learn.org/stable/_static/ml_map.png)](http://scikit-learn.org/stable/tutorial/machine_learning_map/){:target="_blank"}
-Nos próximos artigos darei exemplos de aplicações práticas usando essa biblioteca.
+[No próximo artigo]({{ site.baseurl }}/2016/12/24/decision-tree-e-random-forest/){:target="_blank"} darei exemplos de aplicações práticas usando essa biblioteca.
