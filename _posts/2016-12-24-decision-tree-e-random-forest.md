@@ -203,9 +203,10 @@ No SkLearn é bem simples fazer um treinamento usando esse tipo de algoritmo, ba
 {% highlight python %}
 from sklearn.tree import DecisionTreeClassifier
 
-classifier_dt = DecisionTreeClassifier(random_state=1986,
-                                       criterion='gini',
-                                       max_depth=3)
+classifier_dt = 
+    DecisionTreeClassifier(random_state=1986,
+                           criterion='gini',
+                           max_depth=3)
 classifier_dt.fit(X, y)
 {% endhighlight %}
 O objeto [DecisionTreeClassifier](http://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html){:target="_blank"} possui diversos parâmetros:
@@ -275,11 +276,12 @@ Essa combinação de modelos, torna ele um algoritmo muito mais poderoso do que 
 {% highlight python %}
 from sklearn.ensemble import RandomForestClassifier
 
-classifier_rf = RandomForestClassifier(random_state=1986,
-                                       criterion='gini',
-                                       max_depth=10,
-                                       n_estimators=50,
-                                       n_jobs=-1)
+classifier_rf = 
+    RandomForestClassifier(random_state=1986,
+                           criterion='gini',
+                           max_depth=10,
+                           n_estimators=50,
+                           n_jobs=-1)
 scores_rf = cross_val_score(classifier_rf, X, y,
                             scoring='accuracy', cv=5)
 
