@@ -234,10 +234,10 @@ Vemos que o valor previsto condiz com a realidade, significa que nosso modelo é
 
 Temos uma base com 150 entradas, acertar apenas 3 não diz muita coisa, não somos capazes de determinar a eficiência do modelo apenas com isso.
 
-**Poderíamos testar com tudo?** Isso iria mostrar que somos capazes de acertar os dados que usamos no treinamento. Podemos ser especialista nos dados que usamos no treinamento, mas nao sermos capazes de acertos dados não usados. Isso é chamado de **overfitting**, é uma super especialização apenas nos dados de treinamento.
+**Poderíamos testar com tudo?** Isso iria mostrar que somos capazes de acertar os dados que usamos no treinamento. Podemos ser especialista nos dados que usamos no treinamento, mas não sermos capazes de acertar dados não usados. Isso é chamado de **overfitting**, é uma super especialização apenas nos dados de treinamento.
 
-**Podemos separar uma parte dos dados para o treinamento?** E uma técnica bem comum, podemos separar 20%, 33% da base para ficar fora do treinamento e usarmos isso para validar o modelo depois, existe até a função [train_test_split](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html){:target="_blank"} no SkLearn, que faz essa divisão dos dados mantendo inclusive a proporção das classificações.
-Porém essa abordagem tem um problema, como podemos garantir que escolhemos a parte certa? Que as estradas dela não são iguais da parte não escolhida? Ou que o padrão dos dados separados para teste, só existe neles, então o treinamento não teria a chance de treinar para pegar esse padrão?
+**Podemos separar uma parte dos dados para o treinamento?** É uma técnica bem comum, podemos separar 20%, 33% da base para ficar fora do treinamento e usarmos isso para validar o modelo depois, existe até a função [train_test_split](http://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html){:target="_blank"} no SkLearn, que faz essa divisão dos dados mantendo inclusive a proporção das classificações.
+Porém essa abordagem tem um problema, como podemos garantir que escolhemos a parte certa? Que as entradas dela não são iguais da parte não escolhida? Ou que o padrão dos dados separados para teste, só existe neles, então o treinamento não teria a chance de treinar para pegar esse padrão?
 
 ### Cross Validation
 O Cross Validation serve para ajudar nessa validação do modelo.
@@ -297,7 +297,7 @@ Por ser um conjunto de Decision Trees o objeto [RandomForestClassifier](http://s
 
 **max_features**: É o numero de features que será utilizado por cada Decision Tree interna, são sorteadas features diferentes para cada árvores, justamente para serem  completamente diferentes.
 
-Os scores de Decision Tree e Random Forest foram bem próximo no exemplo mostrado, isso é devido ao fato de a base utilizada sem bem simples, porém para base mais complexas, o Random Forest se sai muito melhor.
+Os scores de Decision Tree e Random Forest foram bem próximo no exemplo mostrado, isso é devido ao fato de a base utilizada ser bem simples, porém para base mais complexas, o Random Forest se sai muito melhor.
 
 
 ### Feature Importance
@@ -328,9 +328,9 @@ for importance, feature in sorted(features_importance, reverse=True):
 
 ### Grid Search
 
-Vimos durante os exemplos que todos os algoritmos possuem diversos parâmetros. Os melhores valores para esses parâmetros mudam conforme os dados mudam, conforme você adiciona ou tirar features e conforme muda os outros parâmetros também.
+Vimos durante os exemplos que todos os algoritmos possuem diversos parâmetros. Os melhores valores para esses parâmetros mudam conforme os dados mudam, conforme você adiciona ou tira features e conforme muda os outros parâmetros também.
 
-Mas então, como definir quais os melhores valores? Umas das técnicas que pode ser utilizada para isso é o Grid Search CV.
+Mas então, como definir quais os melhores valores? Uma das técnicas que pode ser utilizada para isso é o Grid Search CV.
 Você passa para ele uma lista de possíveis valores e o score usado para medir a eficiência do modelo, ele vai rodar o Cross Validation com todas as possíveis combinações e no final vai te dizer qual a combinação apresentou o melhor score.
 
 {% highlight python %}
