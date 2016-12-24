@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Decision Tree e Random Forest
-date:       2016-12-24 10:00:00
+date:       2016-12-24 10:25:00
 summary:    Implementando Decision Tree e Random Forest com o SkLearn
 thumbnail:  book
 fb_image:   http://carlosbaia.com/img/decision-tree-e-random-forest/cover.png
@@ -356,7 +356,7 @@ Somente depois de mudanças realmente significativas nos dados e nas features, s
 
 Com esse conhecimento inicial já é possível treinar um modelo e otimizar seu resultado. Caso algo não tenha ficado muito claro, por favor, deixe um comentário, que ficarei feliz em explicar.
 
-O Jupyter notebook com todo o código pode ser visto [aqui](...){:target="_blank"}.
+O Jupyter notebook com todo o código pode ser visto [aqui](https://github.com/carlosbaia/carlosbaia.github.io/blob/master/notebook/IrisDataset.ipynb){:target="_blank"}.
 
 
 
