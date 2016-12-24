@@ -293,11 +293,11 @@ print(scores_rf.mean())
 
 Por ser um conjunto de Decision Trees, o objeto [RandomForestClassifier](http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html){:target="_blank"} possui diversos dos mesmos parâmetros, além de vários adicionais, entre eles temos:
 
-**n_estimators**: É o numero de estimadores (Decision Trees) que serão utilizados pelo Random Forest.
+**n_estimators**: É o número de estimadores (Decision Trees) que serão utilizados pelo Random Forest.
 
-**n_jobs**: É o numero de execuções em paralelo que serão usadas pelo seu modelo, ao passar -1, o valor será igual ao numero de núcleos do computador executando. Quanto mais paralelizado for a execução, mais rápido será, desde que a máquina aguente. Diversas funções e objetos do SkLearn possui esse parâmetro.
+**n_jobs**: É o número de execuções em paralelo que serão usadas pelo seu modelo, ao passar -1, o valor será igual ao número de núcleos do computador executando. Quanto mais paralelizado for a execução, mais rápido será, desde que a máquina aguente. Diversas funções e objetos do SkLearn possui esse parâmetro.
 
-**max_features**: É o numero de features que será utilizado por cada Decision Tree interna, são sorteadas features diferentes para cada árvores, justamente para serem  completamente diferentes.
+**max_features**: É o número de features que será utilizado por cada Decision Tree interna, são sorteadas features diferentes para cada árvores, justamente para serem  completamente diferentes.
 
 Os scores de Decision Tree e Random Forest foram bem próximo no exemplo mostrado, isso é devido ao fato de a base utilizada ser bem simples, porém para base mais complexas, o Random Forest se sai muito melhor.
 
