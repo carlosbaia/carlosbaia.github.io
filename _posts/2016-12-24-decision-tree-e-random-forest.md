@@ -265,6 +265,8 @@ A métrica também pode variar de acordo com o objetivo, o tipo e o formato da b
 
 **cv**: E a quantidade de folds que será usada no Cross Validation.
 
+Esse artigo explica muito bem as métricas mais populares: [As Métricas Mais Populares para Avaliar Modelos de Machine Learning](http://mariofilho.com/as-metricas-mais-populares-para-avaliar-modelos-de-machine-learning/){:target="_blank"}
+
 ### Random Forest
 
 O algoritmo Random Forest é um tipo de *ensemble learning*, método que gera muitos classificadores e combina o seu resultado.
