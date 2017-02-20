@@ -311,7 +311,7 @@ Antes de mandar imprimir a importância da features, devemos fazer um treinament
 {% highlight python %}
 classifier_rf.fit(X, y)  # Treinando com tudo
 
-features_importance = zip(classifier_dt.feature_importances_, features)
+features_importance = zip(classifier_rf.feature_importances_, features)
 for importance, feature in sorted(features_importance, reverse=True):
     print("%s: %f%%" % (feature, importance*100))
 {% endhighlight %}
