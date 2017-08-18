@@ -23,7 +23,7 @@ As bibliotecas utilizadas para visualizar os dados serão:
 
 Instalação:
 {% highlight python %}
-pip install matplotlib seaborn
+pip install numpy pandas matplotlib seaborn
 {% endhighlight %}
 
 ---
@@ -33,14 +33,13 @@ Podemos facilmente plotar gráficos de ações de empresas na bolsa de valores.
 
 Vamos utilizar a biblioteca [pandas-datareader](https://github.com/pydata/pandas-datareader){:target="_blank"} para pegar informações sobre ações e preencher nosso dataset. Essa biblioteca não pega dados da Bovespa.
 
-Vamos instalá-la com o seguinte comando:
-
+Vamos instalá-la:
 
 {% highlight python %}
 pip install pandas-datareader
 {% endhighlight %}
 
-Uma vez instalada, vamos aos imports padrões.
+Uma vez instalada, vamos ao nosso código Python.
 
 {% highlight python %}
 import numpy as np
