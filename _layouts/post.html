@@ -27,32 +27,10 @@ layout: default
 
       <div class="author">
         <small><i>
-          <a href={{ site.url }}>{{ site.author }}</a><br>
-          {% if page.author %}
-          by
-          <span itemprop="author">
-            {% if site.google_plus_link %}
-              <a rel="author" href="{{ site.google_plus_link }}">
-            {% endif %}
-            <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-              <span itemprop="name">{{ page.author }}</span>
-            </span>
-            {% if site.google_plus_link %}
-              </a>
-            {% endif %}
-          </span>
-          {% endif %}
-          em <span itemprop="datePublished" content="">{{ page.date | date: "%-d/%m/%Y" }}</span>
+          <a href={{ site.url }}>{{ site.author }}</a> em <span itemprop="datePublished" content="">{{ page.date | date: "%-d/%m/%Y" }}</span>
           {% if page.categories != empty %} sobre {% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
         </i></small>
       </div>
-
-      <div class="read-time">
-        <small>
-          {{ minutes }} minutos de leitura
-        </small>
-      </div>
-
       <div class="content-panel content">
         <span itemprop="articleBody">{{ content }}</span>
 
