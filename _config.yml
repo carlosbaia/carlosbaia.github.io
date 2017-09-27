@@ -1,11 +1,11 @@
 # Site settings
-title: "Carlos Henrique Baia"
-author: "Carlos Henrique Baia"
+title: "Carlos Baia: Data Science, Machine Learning e Deep Learning"
+author: "Carlos Baia"
 email: carloshenriquebaia@gmail.com
-description: "Carlos Henrique Baia"
+description: "Artigos sobre Data Science, Machine Learning e Deep Learning. Desde os conceitos básicos até a implementação dos algoritmos com um dataset real usando Python."
 baseurl: ""
 url: "http://carlosbaia.com/"
-title_description: "<b style='font-size:100%'>Engenheiro de Computação</b> e <b style='font-size:100%'>Desenvolvedor de Software</b> há mais de 10 anos, trabalho com segurança de informação e desenvolvo em C++ e Python em praticamente todo esse período. <b style='font-size:100%'>Scrum Master</b> e <b style='font-size:100%'>Gerente de Projetos</b> pela FGV.<br><br>Trabalho desenvolvendo tecnologias antifraudes que rodam em mais de 50 milhões de computadores. Nos últimos anos tenho atuado como <b style='font-size:100%'>Cientista de Dados</b> e aplicado inteligência artificial nos mais variados projetos."
+title_description: "<b style='font-size:100%'>Engenheiro de Computação</b> e <b style='font-size:100%'>Desenvolvedor de Software</b> há mais de 10 anos, trabalho com segurança de informação e desenvolvo em C++ e Python em praticamente todo esse período. <b style='font-size:100%'>Scrum Master</b> e <b style='font-size:100%'>Gerente de Projetos</b> pela FGV.<br><br>Trabalho desenvolvendo tecnologias antifraudes que rodam em mais de 50 milhões de computadores. Nos últimos anos tenho atuado como <b style='font-size:100%'>Cientista de Dados</b> e aplicado <b style='font-size:100%'>Machine Learning</b> e <b style='font-size:100%'>Deep Learning</b> nos mais variados projetos."
 
 title_image: "https://s.gravatar.com/avatar/a094eb0d6a2614158242087840f2a7d7?s=150"
 google_analytics: "UA-71213574-1"
@@ -13,7 +13,7 @@ google_analytics: "UA-71213574-1"
 fb_app_id: "1035391459869025"
 #github_repository: ""
 #addthis_id: ra-513c6fa83da6ec67
-post_limit: 5
+post_limit: 8
 
 # Social usernames/URLs
 email_link: mailto:carloshenriquebaia@gmail
@@ -22,7 +22,7 @@ linkedin_link: https://br.linkedin.com/in/carloshenriquebaia
 github_username: carlosbaia
 #stackoverflow_link: 
 #twitter_username:
-facebook_link: https://www.facebook.com/carloshenriquebaia
+#facebook_link: https://www.facebook.com/carloshenriquebaia
 #google_plus_link: https://plus.google.com/+CarlosHenriqueBaia
 kaggle_link: https://www.kaggle.com/carloshenriquebaia
 

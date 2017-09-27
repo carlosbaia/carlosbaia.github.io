@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://carlosbaia.com/</loc>
+  <lastmod>2017-08-18T14:12:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://carlosbaia.com/2017/08/17/visualizacao-e-analise-de-dados/</loc>
+  <lastmod>2017-08-18T14:12:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://carlosbaia.com/2016/12/24/decision-tree-e-random-forest/</loc>
+  <lastmod>2017-08-18T14:12:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://carlosbaia.com/2016/07/17/introducao-ao-machine-learning/</loc>
+  <lastmod>2017-08-18T14:12:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://carlosbaia.com/2016/06/03/podcat-data-science/</loc>
+  <lastmod>2017-08-18T14:12:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://carlosbaia.com/2016/04/22/machine-learning/</loc>
+  <lastmod>2017-08-18T14:12:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://carlosbaia.com/posts/</loc>
+  <lastmod>2017-08-18T14:12:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
