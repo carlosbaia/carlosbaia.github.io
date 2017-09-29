@@ -3,7 +3,7 @@ layout:     post
 title:      Decision Tree e Random Forest
 date:       2016-12-24 10:25:00
 summary:    Implementando Decision Tree e Random Forest com o SkLearn
-thumbnail:  book
+thumbnail:  tree
 fb_image:   http://carlosbaia.com/img/decision-tree-e-random-forest/cover.png
 tags:
  - Machine Learning

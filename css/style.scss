@@ -15,6 +15,7 @@ $facebook:       #48649f;
 $email:          #ca3b2b;
 $skype:          #20c1ff;
 $kaggle:         #20beff;
+$medium_blog:    #D1D1D1;
 
 $darker:         #21211E;
 $dark:           #2D2D29;
@@ -183,6 +184,10 @@ ul {
 
 	.fa-twitter:hover {
 		color: $twitter;
+	}
+
+	.fa-medium:hover {
+		color: $medium_blog;
 	}
 
 	.fa-linkedin:hover {
