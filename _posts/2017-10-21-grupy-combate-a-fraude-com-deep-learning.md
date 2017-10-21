@@ -17,7 +17,7 @@ Tive o prazer de apresentar a palestra **Combate à fraude com Deep Learning** n
 
 ![image]({{ site.baseurl }}/img/grupy-combate-a-fraude-com-deep-learning/foto.jpg)
 
-Foi um experiência  muito legal e o pessoal foi muito acolhedor.
+Foi uma experiência muito legal e o pessoal foi muito acolhedor.
 
 
 Estou disponibilizando os slides e o código completo.
